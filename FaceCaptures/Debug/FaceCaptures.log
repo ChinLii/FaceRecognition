@@ -1,0 +1,33 @@
+﻿Build started 6/7/2558 3:03:37.
+     1>Project "C:\Users\kanan_000\Documents\Visual Studio 2013\Projects\FaceRecognition\FaceCaptures\FaceCaptures.vcxproj" on node 2 (Rebuild target(s)).
+     1>C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V120\Microsoft.CppBuild.targets(388,5): warning MSB8028: The intermediate directory (Debug\) contains files shared from another project (FaceCaptures.vcxproj).  This can lead to incorrect clean and rebuild behavior.
+     1>CustomBuild:
+         Uic'ing facecaptures.ui...
+         Moc'ing WarningDialog.h...
+         Moc'ing MainWindow.h...
+         Rcc'ing facecaptures.qrc...
+     1>RCC : warning : No resources in 'C:\Users\kanan_000\Documents\Visual Studio 2013\Projects\FaceRecognition\FaceCaptures\facecaptures.qrc'.
+         
+       ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /I.\GeneratedFiles /I. /IC:\Qt\Qt5.4.1\5.4\msvc2013\include /I.\GeneratedFiles\Debug /IC:\Qt\Qt5.4.1\5.4\msvc2013\include\QtCore /IC:\Qt\Qt5.4.1\5.4\msvc2013\include\QtGui /IC:\Qt\Qt5.4.1\5.4\msvc2013\include\QtWidgets /IC:\OpenCV2410\opencv\build\include /Zi /nologo /W1 /WX- /Od /Oy- /D UNICODE /D WIN32 /D WIN64 /D QT_DLL /D QT_CORE_LIB /D QT_GUI_LIB /D QT_WIDGETS_LIB /Gm- /EHsc /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt GeneratedFiles\Debug\moc_MainWindow.cpp GeneratedFiles\Debug\moc_WarningDialog.cpp main.cpp MainWindow.cpp WarningDialog.cpp
+         moc_MainWindow.cpp
+         moc_WarningDialog.cpp
+         main.cpp
+         MainWindow.cpp
+         WarningDialog.cpp
+         Generating Code...
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /I.\GeneratedFiles /I. /IC:\Qt\Qt5.4.1\5.4\msvc2013\include /I.\GeneratedFiles\Debug /IC:\Qt\Qt5.4.1\5.4\msvc2013\include\QtCore /IC:\Qt\Qt5.4.1\5.4\msvc2013\include\QtGui /IC:\Qt\Qt5.4.1\5.4\msvc2013\include\QtWidgets /IC:\OpenCV2410\opencv\build\include /Zi /nologo /W1 /WX- /Od /Oy- /D UNICODE /D WIN32 /D WIN64 /D QT_DLL /D QT_CORE_LIB /D QT_GUI_LIB /D QT_WIDGETS_LIB /Gm- /EHsc /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt GeneratedFiles\qrc_facecaptures.cpp
+         qrc_facecaptures.cpp
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Users\kanan_000\Documents\Visual Studio 2013\Projects\FaceRecognition\Win32\Debug\\FaceRecognition.exe" /NOLOGO /LIBPATH:C:\OpenCV2410\opencv\build\x86\vc12\lib /LIBPATH:C:\Qt\Qt5.4.1\5.4\msvc2013\lib qtmaind.lib Qt5Cored.lib Qt5Guid.lib Qt5Widgetsd.lib opencv_calib3d2410d.lib opencv_contrib2410d.lib opencv_core2410d.lib opencv_features2d2410d.lib opencv_flann2410d.lib opencv_gpu2410d.lib opencv_highgui2410d.lib opencv_imgproc2410d.lib opencv_legacy2410d.lib opencv_ml2410d.lib opencv_nonfree2410d.lib opencv_objdetect2410d.lib opencv_ocl2410d.lib opencv_photo2410d.lib opencv_stitching2410d.lib opencv_superres2410d.lib opencv_ts2410d.lib opencv_video2410d.lib opencv_videostab2410d.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:\Users\kanan_000\Documents\Visual Studio 2013\Projects\FaceRecognition\Win32\Debug\FaceRecognition.pdb" /SUBSYSTEM:WINDOWS /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\Users\kanan_000\Documents\Visual Studio 2013\Projects\FaceRecognition\Win32\Debug\FaceRecognition.lib" /MACHINE:X86 /SAFESEH Debug\moc_MainWindow.obj
+         Debug\moc_WarningDialog.obj
+         Debug\qrc_facecaptures.obj
+         Debug\main.obj
+         Debug\MainWindow.obj
+         Debug\WarningDialog.obj
+         FaceCaptures.vcxproj -> C:\Users\kanan_000\Documents\Visual Studio 2013\Projects\FaceRecognition\Win32\Debug\FaceRecognition.exe
+     1>Done Building Project "C:\Users\kanan_000\Documents\Visual Studio 2013\Projects\FaceRecognition\FaceCaptures\FaceCaptures.vcxproj" (Rebuild target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:05.96
